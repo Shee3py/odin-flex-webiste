@@ -30,8 +30,8 @@ h1 {
 }
 
 .placeholder {
-    width: 640px;
-    height: 360px;
+    height: 225px;
+    width: auto;
 }
 
 .logo {
@@ -97,10 +97,73 @@ h2 {
     font-size: 18px;
     color: #1F2937;
     width: 200px;
+    text-align: center;
 }
 
 .info-images {
     display: flex;
     padding: 0 20%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.info {
+    padding-bottom: 80px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px 20%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quoter {
+    margin: 0;
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-to-action {
+    padding: 80px 16%;
+}
+
+.call {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 110px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call p {
+    margin: 0;
+}
+
+.call-button {
+    border: #e5e7eb solid 2px;
+}
+
+.footer {
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb;
 }
